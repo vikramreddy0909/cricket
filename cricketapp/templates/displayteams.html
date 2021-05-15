@@ -1,0 +1,14 @@
+<table style="width:100%" align="centre" border="2">
+    <tr>
+    <th>Logo</th>
+    <th>Name</th>
+    <th>State</th>
+  </tr>
+    <tr>
+{% for teams in display %}
+        <td><img src="{{ teams.logo.url }}" height="50" width="50"></td>
+        <td>{{teams.name}}</td>
+        <td>{{teams.club_state }}</td>
+{% endfor %}
+    </tr>
+</table>
