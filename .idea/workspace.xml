@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6522275-1df6-4754-8e1a-9efb137aa767" name="Default Changelist" comment="" />
+    <list default="true" id="b6522275-1df6-4754-8e1a-9efb137aa767" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cricketapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/cricketapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cricketapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cricketapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cricketapp/templates/displayteams.html" beforeDir="false" afterPath="$PROJECT_DIR$/cricketapp/templates/displayteams.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cricketapp/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/cricketapp/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cricketapp/templates/registerteam.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cricketapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cricketapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cricketapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cricketapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cricketproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cricketproject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +28,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1sYg0xz3TWEqpBq2mN0NQshaQGt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -52,13 +64,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/cricketapp/views.py</url>
-          <line>4</line>
+          <line>8</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

@@ -1,0 +1,33 @@
+<table width="200" bgcolor="skyblue" border="4" align="left">
+ <thead>
+ <tr>
+  <th>First Name </th>
+  <th>last Name </th>
+  <th>image </th>
+  <th>Jersey Number </th>
+  <th>country Name </th>
+  <th>Matches </th>
+  <th>Runs </th>
+  <th>High Score </th>
+  <th> 50's </th>
+  <th> 100's </th>
+  <th> Player Type </th>
+ </tr>
+ </thead>
+ <tr>
+  <td>{{details.firstname}}</td>
+  <td>{{details.lastname}}</td>
+  <td><img src="{{ details.image.url}}" height="50" width="50"></td>
+  <td>{{details.jersey_nmbr}}</td>
+  <td>{{details.country}}</td>
+  <td>{{details.matches}}</td>
+  <td>{{details.runs}}</td>
+  <td>{{details.high_score}}</td>
+  <td>{{details.fifties}}</td>
+  <td>{{details.hundres}}</td>
+  <td>{{details.player_type}}</td>
+ </tr>
+
+<a href="/cricketapp/display_teams/">back</a>
+
+</table>

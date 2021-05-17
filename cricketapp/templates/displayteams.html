@@ -1,14 +1,21 @@
-<table style="width:100%" align="centre" border="2">
+<table align="center" border="4" bgcolor="orange">
+    <thead>
     <tr>
-    <th>Logo</th>
-    <th>Name</th>
-    <th>State</th>
-  </tr>
-    <tr>
-{% for teams in display %}
-        <td><img src="{{ teams.logo.url }}" height="50" width="50"></td>
-        <td>{{teams.name}}</td>
-        <td>{{teams.club_state }}</td>
-{% endfor %}
+        <th>logo</th>
+        <th>Team Name</th>
+        <th>state</th>
     </tr>
+    </thead>
+    <tbody>
+    {% for teams in display %}
+
+    <tr>
+        <td><img src="/{{ teams.2}}" height="50" width="50"></td>
+        <td><a href="/cricketapp/{{teams.0}}/players_details/">{{teams.1}}</a></td>
+        <td>{{teams.3}}</td>
+    </tr>
+{% endfor %}
+    </tbody>
 </table>
+
+          <a href="/cricketapp/addplayer/">Add Players Details</a>
